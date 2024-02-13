@@ -1,6 +1,6 @@
-# AI Club
+# AI Club :robot:
 
-**Welcome to the AI Club, the hub for artificial intelligence enthusiasts.** Our club is dedicated to exploring the vast and dynamic field of AI, including machine learning, deep learning, robotics, natural language processing, and more. Whether you're a beginner curious about AI or a seasoned practitioner, there's a place for you here to learn, share, and grow.
+**Welcome to the AI Club, the hub for artificial intelligence enthusiasts. 🎉🎉🎉** Our club is dedicated to exploring the vast and dynamic field of AI, including machine learning, deep learning, robotics, natural language processing, and more. Whether you're a beginner curious about AI or a seasoned practitioner, there's a place for you here to learn, share, and grow.
 
 ## Our Mission :dart:
 
@@ -21,7 +21,7 @@ Membership is open to all SMUS students with an interest in AI, regardless of th
 - Attend Meetings: We meet on Wednesday at St. Michael University School. These meetings are a great way to stay informed about upcoming events and projects.
 - Follow the instruction: read through each project or topic instruction and code it yourself.
 
-## Stay Connected
+## Stay Connected :iphone:
 
 - GitHub: https://github.com/monzzzz/AI-club/ - Check out our projects and collaborations.
 
