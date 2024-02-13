@@ -23,6 +23,6 @@ Membership is open to all SMUS students with an interest in AI, regardless of th
 
 ## Stay Connected
 
-- GitHub: [Link] - Check out our projects and collaborations.
+- GitHub: https://github.com/monzzzz/AI-club/ - Check out our projects and collaborations.
 
 - Email: elmond.aphiwetsa@smus.ca - For inquiries and collaboration proposals.
