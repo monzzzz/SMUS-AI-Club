@@ -49,11 +49,15 @@ def error(y_train, y_hat):
     return error
 
 
-# error function is 1/(2*m)*(y_train-y_hat)^2 -> 1/(2*m)*(y_train-(x_train*w + b))^2 -> de/dx = 
-# def error_derivative_r_w():
+# error function is 1/(2*m)*(y_train-y_hat)^2 -> 1/(2*m)*(y_train-(x_train*w + b))^2 -> de/dw = 1/m*(y_train-y_hat)*x
+def error_derivative_r_w(m, x, y_train, y_hat):
+    dedw = 1/m*(y_train-y_hat)*x
+    return dedw
     
-
-# # def error_derivative_r_b():
+# error function is 1/(2*m)*(y_train-y_hat)^2 -> 1/(2*m)*(y_train-(x_train*w + b))^2 -> de/db = 1/m*(y_train-y_hat)
+def error_derivative_r_b(m, y_train, y_hat):
+    dedb = 1/m*(y_train-y_hat)
+    return dedb
     
 
 
