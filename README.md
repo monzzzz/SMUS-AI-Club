@@ -1,8 +1,6 @@
 # AI Club
 
-## Welcome to the AI Club, the hub for artificial intelligence enthusiasts.
-
-Our club is dedicated to exploring the vast and dynamic field of AI, including machine learning, deep learning, robotics, natural language processing, and more. Whether you're a beginner curious about AI or a seasoned practitioner, there's a place for you here to learn, share, and grow.
+**Welcome to the AI Club, the hub for artificial intelligence enthusiasts.** Our club is dedicated to exploring the vast and dynamic field of AI, including machine learning, deep learning, robotics, natural language processing, and more. Whether you're a beginner curious about AI or a seasoned practitioner, there's a place for you here to learn, share, and grow.
 
 ## Our Mission
 
