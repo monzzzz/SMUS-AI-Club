@@ -31,3 +31,5 @@ How can we find the line with the lowest error.
 ## Cost function (error)
 
 The cost function is defined as $$cost = \frac{1}{2m}\ \sum_{i=1}^n (y_i - \hat{y}_i)^2 \$$
+
+The intuition of this equation is that at each point, it finds the difference between $\hat{y}$ and y and then squares it. After that, it sums up these differences at every point of the given dataset. Finally, it tells us how much error our $\hat{y}$ equation has.
