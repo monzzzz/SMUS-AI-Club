@@ -18,8 +18,16 @@ This is how it looks like:
 
 w = 2.99 and b = 0
 
-But how does this equation matter? Imagine if I had data that was distributed in a linear shape but not exactly on the same line. In science, we have to approximate the line with our eyes to do so, but now I'm going to teach you how to find the line of best fit theorically.
+But how does this equation matter? Imagine if I had data that is distributed in a linear shape but not exactly on the same line. In science, we have to approximate the line with our eyes to do so, but now I'm going to teach you how to find the line of best fit theorically.
 
 This is how the line of best fit look like in the dataset.
 
 ![Graph_line_of_best_fit](./images/graph_line_of_best_fit.png)
+
+We can assume the linear line to be y_hat = wx + b. As we want to know y_hat graph, we are required to find suitable w and b that best fits the graph with the lowest error.
+
+How can we find the line with the lowest error.
+
+## Error cost function
+
+The cost function is defined as $`1/(2m)(\sum_{k=1}^n (y_hat_k - y_k)^2) \right`$
