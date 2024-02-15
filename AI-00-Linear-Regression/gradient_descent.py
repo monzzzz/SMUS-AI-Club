@@ -49,7 +49,7 @@ weight_list, bias_list = gradient_descent(x_train, y_train, y_hat, a, w, b, t)
 
 plt.figure(figsize=(15, 5))
 
-plt.subplot(1, 3, 1)
+plt.subplot(1, 3, 1) # row, column, order
 plt.plot(weight_list, label='Weight')
 plt.xlabel('Iteration')
 plt.ylabel('Weight')
@@ -75,7 +75,9 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-# visualize the path of the model progression
+
+
+# Visualize the path of the model progression
 
 fig = plt.figure(figsize=(10, 7)) # the size of the figure
 ax = fig.add_subplot(111, projection='3d')
