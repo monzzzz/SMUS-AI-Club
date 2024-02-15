@@ -30,4 +30,4 @@ How can we find the line with the lowest error.
 
 ## Error cost function
 
-The cost function is defined as $`1/(2m)(\sum_{k=1}^n (y_hat_k - y_k)^2)`$
+The cost function is defined as
