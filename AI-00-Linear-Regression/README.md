@@ -5,7 +5,7 @@ On this topic, we're going to talk about linear regression. What is it? it is th
 ## Contents
 
 - linear function
-- error cost function
+- Cost function (error)
 - gradient descent
 
 ## Linear function
@@ -24,10 +24,10 @@ This is how the line of best fit look like in the dataset.
 
 ![Graph_line_of_best_fit](./images/graph_line_of_best_fit.png)
 
-We can assume the linear line to be y_hat = wx + b. As we want to know y_hat graph, we are required to find suitable w and b that best fits the graph with the lowest error.
+We can assume the linear line to be $\hat{y}$ = wx + b. As we want to know y_hat graph, we are required to find suitable w and b that best fits the graph with the lowest error.
 
 How can we find the line with the lowest error.
 
-## Error cost function
+## Cost function (error)
 
-The cost function is defined as
+The cost function is defined as $$cost = \frac{1}{2m}\ \sum_{i=1}^n (y_i - \hat{y}_i)^2 \$$
