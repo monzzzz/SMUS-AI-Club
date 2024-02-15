@@ -26,8 +26,8 @@ len = x_train.shape[0]
 y_hat = np.zeros(len)
 
 # set parameters for the equation
-w = 2.99
-b = 0
+w = 2.5308100281529797
+b = -0.37734119808178146
 
 
 for i in range(len):

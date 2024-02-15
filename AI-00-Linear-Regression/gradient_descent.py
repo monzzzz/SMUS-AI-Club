@@ -43,6 +43,8 @@ def gradient_descent(x_train, y_train, y_hat, a, w, b, t):
     return weight_list, bias_list
     
 weight_list, bias_list = gradient_descent(x_train, y_train, y_hat, a, w, b, t)
+print(weight_list[4999])
+print(bias_list[4999])
 
 
 # Progress for each variable (including bias, weight, and error)

@@ -10,9 +10,16 @@ On this topic, we're going to talk about linear regression. What is it? it is th
 
 ## Linear function
 
-As you probably learned in middle school, the linear line graph is represented by the equation y = mx + b
+As you probably learned in middle school, the linear line graph is represented by the equation y = mx + b, but in the AI field, we commonly use w (weight) instead of m
 
 This is how it looks like:
+
 ![Linear_line_graph](./images/linear_line_graph.png)
 
 w = 2.99 and b = 0
+
+But how does this equation matter? Imagine if I had data that was distributed in a linear shape but not exactly on the same line. In science, we have to approximate the line with our eyes to do so, but now I'm going to teach you how to find the line of best fit theorically.
+
+This is how the line of best fit look like in the dataset.
+
+![Graph_line_of_best_fit](./images/graph_line_of_best_fit.png)
