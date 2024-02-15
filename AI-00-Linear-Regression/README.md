@@ -24,7 +24,7 @@ This is how the line of best fit look like in the dataset.
 
 ![Graph_line_of_best_fit](./images/graph_line_of_best_fit.png)
 
-We can assume the linear line to be $\hat{y} = wx + b$. As we want to know $\hat{y}$ graph, we are required to find suitable w and b that best fits the graph with the lowest error.
+We can assume the linear line to be $\hat{y} = wx + b$. As we want to know $\hat{y}$ graph, we are required to find suitable $w$ and $b$ that best fits the graph with the lowest error.
 
 How can we find the line with the lowest error.
 
