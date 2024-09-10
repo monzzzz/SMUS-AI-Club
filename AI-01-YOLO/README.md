@@ -1,16 +1,16 @@
 # 🚀 YOLO (You Only Look Once) - Object Detection Project
 
 ### 🎯 **Objective:**
-We are diving into the world of **Object Detection** with the powerful **YOLOv10** model! Over the next few weeks, you'll learn how to:
+We are diving into the world of **Object Detection** with the powerful **YOLOv8** model! Over the next few weeks, you'll learn how to:
 - 📦 **Prepare data**
-- 🏋️‍♂️ **Train the YOLOv10 model**
+- 🏋️‍♂️ **Train the YOLOv8 model**
 - 👁️‍🗨️ **Run object detection** and see it in action
 
 ### 📅 **Plan**
 
-#### Week 1: Introduction to YOLOv10
-- We'll kick things off by exploring **YOLOv10**, a cutting-edge object detection model that can identify multiple objects in a single glance—fast and accurate! 💥
-- I'll give a brief overview of how YOLOv10 works, its importance, and where it’s used (hint: self-driving cars, surveillance, cool AI stuff!).
+#### Week 1: Introduction to YOLOv8
+- We'll kick things off by exploring **YOLOv8**, a cutting-edge object detection model that can identify multiple objects in a single glance—fast and accurate! 💥
+- I'll give a brief overview of how YOLOv8 works, its importance, and where it’s used (hint: self-driving cars, surveillance, cool AI stuff!).
 - **Project Overview**: I'll present the plan for this project, including what we’ll achieve and the time breakdown for each part.
 
 📝 **Homework (Week 1)**:
@@ -31,7 +31,7 @@ We are diving into the world of **Object Detection** with the powerful **YOLOv10
 #### Week 3: Data Augmentation & Model Training
 - This week is all about **augmenting** your dataset to make the model even better. Using Roboflow, we’ll apply techniques like flipping, rotating, and adjusting brightness to make the model more robust. 🔄
 - Once the images are ready, you’ll export them and upload them to **Google Colab** for training.
-- We’ll then **train YOLOv10** on your dataset, following the usage examples from [Ultralytics YOLO Docs](https://docs.ultralytics.com/modes/train/#usage-examples). Time to watch your model in action! 🖥️🔥
+- We’ll then **train YOLOv8** on your dataset, following the usage examples from [Ultralytics YOLO Docs](https://docs.ultralytics.com/modes/train/#usage-examples). Time to watch your model in action! 🖥️🔥
 
 ---
 
