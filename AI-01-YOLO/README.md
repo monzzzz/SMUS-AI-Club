@@ -36,6 +36,6 @@ We are diving into the world of **Object Detection** with the powerful **YOLOv8*
 ---
 
 ### 🎉 **FINISH!**
-By the end of the project, you’ll have a trained YOLOv10 model that can detect your chosen object! 🚀 Get ready to blow minds with your object detection skills. 😎
+By the end of the project, you’ll have a trained YOLOv8 model that can detect your chosen object! 🚀 Get ready to blow minds with your object detection skills. 😎
 
 💡 **Reminder:** Keep up with the homework each week to ensure you’re prepared for the next step. Let’s build something amazing together!
