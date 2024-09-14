@@ -10,5 +10,4 @@ def get_embedding(text, model = "text-embedding-3-small"):
     with torch.no_grad():
         outputs = model(**inputs)
     embeddings = outputs.last_hidden_state
-    print(embeddings)
     return embeddings
