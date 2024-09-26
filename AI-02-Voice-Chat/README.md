@@ -1,4 +1,4 @@
-# 📚 AI Project: Voice to LLM to Voice!
+# 📚 SMUS Assistance
 
 ### Diagram
 
