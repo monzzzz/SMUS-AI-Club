@@ -1,6 +1,6 @@
 # Neural network
 
-## Char
+## Chart
 
 ![Neural_Network_Graph](./images/neural-networks.jpeg)
 
