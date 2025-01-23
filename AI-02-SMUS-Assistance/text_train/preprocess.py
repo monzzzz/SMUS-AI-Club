@@ -1,10 +1,10 @@
 import pandas as pd
-import pandas as pd
 import numpy as np
 import re
 from spacy.lang.en import English
 from tqdm.auto import tqdm
 from sentence_transformers import SentenceTransformer
+from clean import remove_headers_footers, remove_special_characters, remove_repeated_substrings, remove_extra_spaces
 
 device = "cpu"
 
@@ -75,27 +75,47 @@ def get_embeddings(text):
 def main():
     pages_and_text = []
     # Load data
+    print("start loading data...")
     df_smus_website = pd.read_csv("smus_page.csv") 
     df_smus_handbook = pd.read_csv("smus_handbook.csv")
     for page in df_smus_website["Page Content"]:
         pages_and_text.append(page.replace("\n", " "))
     for page in df_smus_handbook["Page Content"]:
         pages_and_text.append(page)
+    print("finish loading data")
 
     # Convert to dataframe
     df = pd.DataFrame(pages_and_text, columns = ["Page Content"])
 
     # Assign Properties
+    print("start assigning properties...")
     pages_and_text = assign_properties(df)
+    print("finish assigning properties")
 
+    # Cleaning the text
+    print("start clearning the text...")
+    for item in tqdm(pages_and_text):
+        item["text"] = remove_headers_footers(item["text"])
+        item["text"] = remove_special_characters(item["text"])
+        item["text"] = remove_repeated_substrings(item["text"])
+        item["text"] = remove_extra_spaces(item["text"])
+
+    #----------------------------
+    print("finish clearning the text")
     # Splitting the sentences
+    print("start splitting the sentences...")
     pages_and_text = splitting_into_sentences(pages_and_text)
+    print("finish splitting the sentences")
 
     # Chunk Sentences
+    print("start chunking the sentences...")
     pages_and_chunks = chunk(pages_and_text)
+    print("finish chunking the sentences")
 
     # Join Sentences
+    print("start joining the sentences...")
     pages_and_chunks = join_sentences(pages_and_chunks)
+    print("finish joining the sentences")
 
     # Get Embeddings
     for item in tqdm(pages_and_chunks):
